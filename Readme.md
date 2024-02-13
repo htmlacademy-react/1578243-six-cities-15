@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
 * Студент: [Сергей Дятлов](https://up.htmlacademy.ru/react/15/user/1578243).
-* Наставник: `Arthur Litovko`.
+* Наставник: [Arthur Litovko](https://htmlacademy.ru/profile/id6927).
 
 ---
 
