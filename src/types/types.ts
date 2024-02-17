@@ -1,4 +1,1 @@
-export enum PlaceType {
-    ROOM = 'Room',
-    APARTMENT = 'Apartment',
-}
+export type PlaceType = 'Room' | 'Apartment'

@@ -1,5 +1,5 @@
-import { PlaceCard, TPlaceCardProps } from '../components/PlaceCard';
-import { mockData } from '../mockData/mockData';
+import { PlaceCard } from '../components/place-card';
+import { mockData } from '../mock-data/mock-data';
 
 type TMainPageProps = {
     countOffers: number;
@@ -95,7 +95,7 @@ export const MainPage = ({ countOffers }: TMainPageProps): JSX.Element => (
               </ul>
             </form>
             <div className="cities__places-list places__list tabs__content">
-              {mockData.map((placeCard: TPlaceCardProps) => (
+              {mockData.map((placeCard) => (
                 <PlaceCard
                   isPremium={placeCard.isPremium}
                   price={placeCard.price}

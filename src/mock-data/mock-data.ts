@@ -1,5 +1,4 @@
-import { TPlaceCardProps } from '../components/PlaceCard';
-import { PlaceType } from '../types/types';
+import { TPlaceCardProps } from '../components/place-card';
 
 export const mockData: TPlaceCardProps[] = [
   {
@@ -9,7 +8,7 @@ export const mockData: TPlaceCardProps[] = [
     image: 'img/apartment-01.jpg',
     isFavorite: false,
     title: 'Beautiful & luxurious apartment at great location',
-    type: PlaceType.APARTMENT,
+    type: 'Apartment',
     rating: 4
   },
   {
@@ -18,7 +17,7 @@ export const mockData: TPlaceCardProps[] = [
     image: 'img/room.jpg',
     isFavorite: false,
     title: 'Wood and stone place',
-    type: PlaceType.ROOM,
+    type: 'Room',
     rating: 2,
     isFavoriteClass: true
   },
@@ -28,7 +27,7 @@ export const mockData: TPlaceCardProps[] = [
     image: 'img/apartment-02.jpg',
     isFavorite: false,
     title: 'Canal View Prinsengracht',
-    type: PlaceType.APARTMENT,
+    type: 'Apartment',
     rating: 3
   },
   {
@@ -38,7 +37,7 @@ export const mockData: TPlaceCardProps[] = [
     image: 'img/apartment-03.jpg',
     isFavorite: false,
     title: 'Nice, cozy, warm big bed apartment',
-    type: PlaceType.APARTMENT,
+    type: 'Apartment',
     rating: 5,
     isFavoriteClass: true
   },
@@ -48,7 +47,7 @@ export const mockData: TPlaceCardProps[] = [
     image: 'img/room.jpg',
     isFavorite: false,
     title: 'Wood and stone place',
-    type: PlaceType.ROOM,
+    type: 'Room',
     rating: 4,
     isFavoriteClass: true
   },
@@ -58,8 +57,8 @@ export const mockData: TPlaceCardProps[] = [
     image: 'img/apartment-03.jpg',
     price: 300,
     isFavorite: true,
-    title: '',
-    type: PlaceType.APARTMENT,
+    title: 'Very Good Place',
+    type: 'Apartment',
     rating: 4
   },
   {
@@ -68,7 +67,7 @@ export const mockData: TPlaceCardProps[] = [
     price: 120,
     isFavorite: false,
     title: 'Nice, cozy, warm big bed apartment',
-    type: PlaceType.ROOM,
+    type: 'Room',
     rating: 2,
     isFavoriteClass: true
   },
@@ -79,7 +78,7 @@ export const mockData: TPlaceCardProps[] = [
     price: 350,
     isFavorite: true,
     title: 'Wood and stone place',
-    type: PlaceType.APARTMENT,
+    type: 'Apartment',
     rating: 3
   },
   {
@@ -88,7 +87,7 @@ export const mockData: TPlaceCardProps[] = [
     price: 90,
     isFavorite: true,
     title: 'Nice, cozy, warm big bed apartment',
-    type: PlaceType.APARTMENT,
+    type: 'Apartment',
     rating: 5
   },
 ];
