@@ -1,4 +1,4 @@
-import { PlaceType } from '../types/types';
+import { PlaceType } from '../../types/types';
 
 export type TPlaceCardProps = {
     id?: number;
