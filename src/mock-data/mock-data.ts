@@ -1,4 +1,4 @@
-import { TPlaceCardProps } from '../components/place-card';
+import { TPlaceCardProps } from '../components/place-card/place-card';
 
 export const mockData: TPlaceCardProps[] = [
   {

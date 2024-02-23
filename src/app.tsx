@@ -1,6 +1,5 @@
-import { mockData } from './mock-data/mock-data';
-import { MainPage } from './pages/main-page';
+import { AppRoutes } from './routes/routes';
 
 export const App = (): JSX.Element => (
-  <MainPage countOffers={mockData.length}/>
+  <AppRoutes/>
 );
