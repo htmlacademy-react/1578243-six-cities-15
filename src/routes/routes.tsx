@@ -5,7 +5,7 @@ import { LoginPage } from '../pages/login-page/login-page';
 import { MainPage } from '../pages/main-page/main-page';
 import { NotFoundPage } from '../pages/not-found-page.tsx/not-found-page';
 import { OfferPage } from '../pages/offer-page/offer-page';
-import { PrivateRoute } from '../private-route/private-route';
+import { PrivateRoute, PublicRoute } from '../private-route/private-route';
 import { AppRoute } from '../types/types';
 
 export const AppRoutes = () => (
@@ -19,7 +19,7 @@ export const AppRoutes = () => (
         path={AppRoute.FAVORITES}
         element={
           <PrivateRoute
-            authorizationStatus='AUTH'
+            authorizationStatus='NO_AUTH'
           >
             <FavoritesPage />
           </PrivateRoute>
@@ -27,7 +27,7 @@ export const AppRoutes = () => (
       />
       <Route
         path={AppRoute.LOGIN}
-        element={<LoginPage/>}
+        element={<PublicRoute authorizationStatus='NO_AUTH'><LoginPage/></PublicRoute>}
       />
       <Route
         path={AppRoute.OFFER}
